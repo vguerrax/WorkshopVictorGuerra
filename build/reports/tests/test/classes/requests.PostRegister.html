@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - PostRegister</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>PostRegister</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/requests.html">requests</a> &gt; PostRegister</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.701s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">register01Test()</td>
+<td class="success">0.805s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">register02Test()</td>
+<td class="success">0.814s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">register03Test()</td>
+<td class="success">0.815s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">registerNotFound()</td>
+<td class="success">0.829s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">registerSuccess()</td>
+<td class="success">0.733s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">registerUnsuccessful()</td>
+<td class="success">0.705s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>HTTP/1.1 200 OK
+Date: Mon, 29 Aug 2022 14:27:26 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;24-4iP0za1geN2he+ohu8F0FhCjLks&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=63EiOin3z%2FTc0%2B5cUAPJKHZ0ys510QepkQ96M8Pgp8KUruBGIXzEXENuzTVeSSpJidq93hN4wXOsmYoTdGX0AMNpRJX18i3%2FFDIp%2Fd5bVxnuihmIRwZ%2BKODg3w%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 7425f7a9186f8e00-MIA
+
+{
+    &quot;id&quot;: 4,
+    &quot;token&quot;: &quot;QpwL5tke4Pnpja7X4&quot;
+}
+HTTP/1.1 200 OK
+Date: Mon, 29 Aug 2022 14:27:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;24-4iP0za1geN2he+ohu8F0FhCjLks&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=M3c3XJ9xXyVNlx16Kd%2BHLMsIAXbEOnGFD%2FEcPA5uZIoQZWdv4y1k%2BDtuKZ3b13VwToY%2BDn8yRs6c3YE3Jug7AL6%2F%2B3JoqK5%2FdlrGzjARn49gWz5W7CITbkas%2Bw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 7425f7adac95db29-MIA
+
+{
+    &quot;id&quot;: 4,
+    &quot;token&quot;: &quot;QpwL5tke4Pnpja7X4&quot;
+}
+HTTP/1.1 200 OK
+Date: Mon, 29 Aug 2022 14:27:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;24-4iP0za1geN2he+ohu8F0FhCjLks&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FIKsxviN3Ti4jvsd3Kih9Cr7wY21KLRP0uLxf6CxDP5AQL3PdLwdMlmPE1YAYn%2BPLq%2FHF%2Bq0gdUI9v6RPon7QsnSylHZIto6ztdhOQaxAn%2FYZX0Q9YCdr%2FLqdg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 7425f7b28f3a21f1-MIA
+
+{
+    &quot;id&quot;: 4,
+    &quot;token&quot;: &quot;QpwL5tke4Pnpja7X4&quot;
+}
+HTTP/1.1 200 OK
+Date: Mon, 29 Aug 2022 14:27:28 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 36
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;24-4iP0za1geN2he+ohu8F0FhCjLks&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=dewCc%2FD8cFbe2ZGeRQSexEMqNwewLzTfT6D8yNBXWyGla8tKJ%2FB7CfsM1xXn6FQZ6oq86pB2wUSKv8vxn7bs3I88C6hIeSzEbP6iHdp46ynXBlQ1CSS%2F%2F4jqqA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 7425f7b7b800db1d-MIA
+
+{
+    &quot;id&quot;: 4,
+    &quot;token&quot;: &quot;QpwL5tke4Pnpja7X4&quot;
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 29 Aug 2022 14:27:29 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 28
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;1c-NmpazMScs9tOqR7eDEesn+pqC9Q&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=3nRbB95ykIr%2FK%2BGq8tYctcNozH8Cw7%2FHLAek2g9F%2Fxq41LpL%2FhdaQR9Wq%2BR4sa1CJsc0cNF0eapE9gk3n5zxIHvU4v50IIEUqAlZp8u5lNxcLi90460K7eNvyQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 7425f7bccb6d9ac0-MIA
+
+{
+    &quot;error&quot;: &quot;Missing password&quot;
+}
+HTTP/1.1 400 Bad Request
+Date: Mon, 29 Aug 2022 14:27:30 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 57
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/&quot;39-6jrJxn+7f+pQUhbPgNMst7tagpA&quot;
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=Tmut2vrGIRaoTFWeTNpYR6jjwK5L2iX%2Bxik9GfYV8KzdSGhWEVSVKl3h8%2BuHRs3vsdIDPw89giX9BYXN6Iy3nHJ97ZfAVRnVL5gjG4OViPpgOEvCgnEttOu97g%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+Server: cloudflare
+CF-RAY: 7425f7c14c336da3-MIA
+
+{
+    &quot;error&quot;: &quot;Note: Only defined users succeed registration&quot;
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4.2</a> at 29 de ago. de 2022 11:27:30</p>
+</div>
+</div>
+</body>
+</html>

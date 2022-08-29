@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="requests.GetUsers" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-08-29T14:27:17" hostname="ZUP-5197" time="4.637">
+  <properties/>
+  <testcase name="Listar 1 usuário" classname="requests.GetUsers" time="2.161"/>
+  <testcase name="Recuperar usuário" classname="requests.GetUsers" time="0.79"/>
+  <testcase name="Recuperar usuário inexistente" classname="requests.GetUsers" time="0.793"/>
+  <testcase name="Listar 5 usuários" classname="requests.GetUsers" time="0.892"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
